@@ -41,7 +41,7 @@ namespace vecpp {
   };
 
   template<typename T>
-  Ortho2D(const Vec<T, 2>&, const Vec<T, 2>&) -> Ortho2D<T>();
+  Ortho2D(const Vec<T, 2>&, const Vec<T, 2>&) -> Ortho2D<T>;
 }
 
 #endif
